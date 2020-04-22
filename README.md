@@ -13,7 +13,7 @@ I place these in the `<head>` of _almost_ every HTML document I write:
 <meta charset="utf-8">
 
 <!-- Connect Font Awesome CSS -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.2/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 
 <!-- Connect Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
