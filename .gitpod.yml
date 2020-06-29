@@ -1,4 +1,4 @@
-image: jelaniwoods/appdev2020-omnicalc-bootstrap
+image: jelaniwoods/appdev2020-foodhub
 
 tasks:
   - init: bin/setup
