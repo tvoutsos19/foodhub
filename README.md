@@ -31,7 +31,7 @@ I place these in the `<head>` of _almost_ every HTML document I write:
  1. Start the web server with bin/server.
  1. Navigate to your live application preview.
  1. As you work, remember to navigate to /git and **Always Be Committing.**
- 1. Run `rails grade` as often as you like to see how you are doing, but **make sure you test your app manually first to make sure it matches the target's behavior first**.
+ 1. Run `rails grade` as often as you like to see how you are doing, but **make sure you test your app manually to make sure it matches the target's behavior first**.
 
 ## Recommended steps
 
@@ -96,7 +96,7 @@ To set a background image that retains its aspect ratio no matter how an element
  1. The landing page should have a fourth level heading with the text 'help' in white text.
  1. The landing page should have a fourth level heading with the text 'Connect with us' in white text.
  1. The landing page should have a fourth level heading with the text 'Partner with us' in white text.
- 1. The landing page should have a list item with the text 'About Grubhub' in white text.
+ 1. The landing page should have a list item with the text 'About Foodhub' in white text.
  1. The landing page should have a list item with the text 'Our apps' in white text.
  1. The landing page should have a list item with the text 'Our blog' in white text.
  1. The landing page should have a list item with the text 'Careers' in white text.
