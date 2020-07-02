@@ -93,7 +93,7 @@ To set a background image that retains its aspect ratio no matter how an element
  1. The landing page has a footer element that has a dark blue background color.
  1. The landing page should have a fourth level heading with the text 'Sign up for special offers' in white text.
  1. The landing page should have a fourth level heading with the text 'Get to know us' in white text.
- 1. The landing page should have a fourth level heading with the text 'help' in white text.
+ 1. The landing page should have a fourth level heading with the text 'Help' in white text.
  1. The landing page should have a fourth level heading with the text 'Connect with us' in white text.
  1. The landing page should have a fourth level heading with the text 'Partner with us' in white text.
  1. The landing page should have a list item with the text 'About Foodhub' in white text.

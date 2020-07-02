@@ -295,11 +295,11 @@ describe "The landing page" do
 end
 
 describe "The landing page" do
-  it "should have a fourth level heading with the text 'help' in white text.", {:js => true, :points => 1} do
+  it "should have a fourth level heading with the text 'Help' in white text.", {:js => true, :points => 1} do
 
     visit "/"
 
-    heading = find("h4", :text => /Get to know us/i)
+    heading = find("h4", :text => /Help/i)
     
     rgba_color_value = heading.native.style("color")
     
@@ -340,11 +340,11 @@ describe "The landing page" do
 end
 
 describe "The landing page" do
-  it "should have a list item with the text 'About Grubhub' in white text.", {:js => true, :points => 1} do
+  it "should have a list item with the text 'About Foodhub' in white text.", {:js => true, :points => 1} do
 
     visit "/"
 
-    heading = find("h4", :text => /Get to know us/i)
+    heading = find("li", :text => /About Foodhub/i)
     
     rgba_color_value = heading.native.style("color")
     
