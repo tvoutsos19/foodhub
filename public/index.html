@@ -1,19 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
+  <meta charset="utf-8">
+
+  <!-- Connect Font Awesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+  <!-- Connect Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!-- Connect Bootstrap JavaScript and its dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Make it responsive to small screens -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Foodhub</title>
 </head>
 
 <body>
-  <a href="https://www.google.com">
-    FOODHUB
-  </a>
-  <a href="https://www.google.com">
-    Sign In
-  </a>
-  <a href="https://www.google.com">
-    <i class="fa fa-shopping-bag fa-lg"></i>
-  </a>
+  <!-- As a heading -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-danger">
+    <a class="navbar-brand" href="https://www.google.com">
+      <span class="h2 font-weight-bold">FOODHUB</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="https://www.google.com">
+            Sign In
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="https://www.google.com">
+            <i class="fa fa-shopping-bag fa-lg"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   <h2>
     Who delivers in your neighborhood?
